@@ -32,7 +32,7 @@
 		number: NRW201902202237371ZUCYTD,
 		creationDate: '2020-03-20 20:21:22',
 		modifiedStateDate: '2020-03-20 20:21:22',
-		status: 1 
+		status: true 
 	},
     ...
     ...
@@ -46,7 +46,7 @@
 	doctorId: 1,
 	number: NRW202003202237371DTAHDT,
 	modifiedStateDate: '2020-03-20 20:21:22',
-	status: 1 
+	status: false
 }
 ```
 
