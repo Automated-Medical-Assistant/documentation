@@ -16,7 +16,7 @@
 }
 ```
 
-##### UserListAPI JSON
+##### NumberListAPI JSON
 
 ```
 [
@@ -32,28 +32,6 @@
 		number: NRW201902202237371ZUCYTD,
 		creationDate: '2020-03-20 20:21:22',
 		modifiedStateDate: '2020-03-20 20:21:22',
-		status: true 
-	},
-    ...
-    ...
-    ...
-]
-```
-
-##### NumberListAPI JSON
-
-```
-[
-	{
-		doctorId: 1,
-		number: NRW202003202237371DTAHDT,
-		creationDate: '2020-03-20 20:21:22',
-		status: null
-	},
-	{
-		doctorId: 2,
-		number: NRW201902202237371ZUCYTD,
-		creationDate: '2020-03-20 20:21:22',
 		status: true 
 	},
     ...
@@ -78,11 +56,13 @@
 		userId: 1,
 		email: 'user-1@de.de',
 		role: 'Doctor',
+		stateIso : 'NW'
 	},
 	{
 		userId: 2,
 		email: 'user-2@de.de',
 		role: 'Labor',
+		stateIso: 'BY'
 	},
     ...
     ...
