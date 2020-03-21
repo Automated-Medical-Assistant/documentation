@@ -16,7 +16,7 @@
 }
 ```
 
-##### NumberListAPI JSON
+##### UserListAPI JSON
 
 ```
 [
@@ -40,10 +40,9 @@
 ]
 ```
 
-##### NumberCreationRequestAPI JSON
+##### NumberChangeStateRequestAPI JSON
 ```
 {
-	doctorId: 1,
 	number: NRW202003202237371DTAHDT,
 	modifiedStateDate: '2020-03-20 20:21:22',
 	status: false
